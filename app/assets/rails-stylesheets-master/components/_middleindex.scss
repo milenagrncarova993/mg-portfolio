@@ -48,3 +48,15 @@ background-color: #f0f0f0;
     line-height: 2em;
     }
 }
+
+.index-page-content1about{
+    float: left;
+    width: 50%;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), image-url("mg-picture.PNG");
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+    max-width:100%; 
+    height:auto;
+
+}
