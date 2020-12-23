@@ -28,11 +28,13 @@
         font-weight: 600;
         letter-spacing: .12em;
         text-transform: uppercase;
+        color: black;
     }
 
     h1{
-        font-size: 42px;
+        font-size: 30px;
         height: 160px;
+        color: black;
     }
 
     span{
@@ -42,7 +44,21 @@
     }
 }
 
+.cards :hover {
+    background-color: black;
 
+    h1{
+        color:white;
+    }
+
+    p{
+        color: #e1a87a;
+    }
+
+    span {
+        color: #e1a87a;
+    }
+}
   // Smallest device
   @media (min-width: 100px) and (max-width: 575px) {
     .cards {
