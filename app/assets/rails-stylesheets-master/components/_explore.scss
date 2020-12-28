@@ -1,21 +1,28 @@
-.explo{
+.container-explore{
     display: flex;
-    padding-top: 100px;
-    padding-bottom:100px;
-    height:1000px;
+    padding: 20vh 6vw;
+    margin-top: 100px;
+    margin-bottom:100px;
 }
 
-.explore-picture{
-    float: left;
+.explore-button{
+    float: right;
     width: 50%;
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), image-url("mg-picture.PNG");
-    background-size: cover;
-    background-position: center;
+    margin-left: 30px;
+    align-items: center;
 }
 
 .explore-text{
-    float: right;
+    float: left;
     width: 50%;
-    font-weight: bold;
-    background: white;
+
+    h1{
+        font-family: freight-display-pro;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.1em;
+        text-transform: none;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+    }
 }
