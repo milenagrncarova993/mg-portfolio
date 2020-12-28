@@ -5,7 +5,6 @@
 .container-middle{
     display: flex;
     padding: 15vh 6vw;
-    height: 1000px;
 }
 
 .index-page-content1{
@@ -47,3 +46,36 @@
   margin-left:20px;
 
 }
+
+.ted-cont{
+  background-color: black;
+  color:white;
+  padding-top: 100px;
+  padding-bottom:100px;
+  display:flex;
+}
+
+.tedx{
+  background-image: url(https://res.cloudinary.com/daf0zj13q/image/upload/v1609160564/mile-ted_gxrshm.jpg);
+  background-size: 900px;
+  width: 900px;
+  height: 500px;
+  margin-left:50px;
+  float:left ;
+  width: 50%;
+}
+.ted-but{
+    float:right;
+    width: 50%;
+    padding-left: 30px;
+
+      h1{
+        font-family: freight-display-pro;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.1em;
+        text-transform: none;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+      }
+  }
