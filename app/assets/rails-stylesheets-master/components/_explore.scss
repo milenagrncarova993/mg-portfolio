@@ -1,6 +1,6 @@
 .container-explore{
     display: flex;
-    padding: 20vh 6vw;
+    padding: 15vh 6vw;
     margin-top: 100px;
     margin-bottom:100px;
 }
@@ -8,16 +8,18 @@
 .explore-button{
     float: right;
     width: 50%;
-    margin-left: 30px;
-    align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), image-url("milegrncarov.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url(https://res.cloudinary.com/daf0zj13q/image/upload/v1609155708/55529776_10216896033945598_726609708005195776_o_e2edth.jpg);
+    background-size: 500px;
+    width: 500px;
+    height: 600px;
+    margin-left:20px;
+
 }
 
 .explore-text{
     float: left;
     width: 50%;
+    padding-top:50px;
 
     h1{
         font-family: freight-display-pro;
