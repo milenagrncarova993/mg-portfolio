@@ -1,0 +1,21 @@
+.explo{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom:100px;
+    height:1000px;
+}
+
+.explore-picture{
+    float: left;
+    width: 50%;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), image-url("mg-picture.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.explore-text{
+    float: right;
+    width: 50%;
+    font-weight: bold;
+    background: white;
+}
